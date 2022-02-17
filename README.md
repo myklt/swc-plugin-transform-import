@@ -4,14 +4,14 @@ Inspired from [babel-plugin-transform-imports](https://www.npmjs.com/package/bab
 ## Installation
 
 ```bash
-npm i -D swc-plugin-transform-import
+npm i -D @myklt/swc-plugin-transform-import
 ```
 
 ## Uses with webpack-config
 ```javascript
 // webpack.config.js
 
-const PluginTransformImport = require('swc-plugin-transform-import').default;
+const PluginTransformImport = require('@myklt/swc-plugin-transform-import').default;
 
 module: {
     rules: [
